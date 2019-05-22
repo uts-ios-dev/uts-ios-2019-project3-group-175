@@ -10,30 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var signupView: UIView!
-    @IBOutlet weak var loginView: UIView!
-    @IBOutlet weak var segmentedControl: UISegmentedControl!
-    
-    
-    @IBAction func segmentedControlClicked(_ sender: UISegmentedControl) {
-        switch sender.selectedSegmentIndex {
-        case 0:
-            signupView.isHidden = true
-            loginView.isHidden = false
-            print("login")
-            break;
-        case 1:
-            signupView.isHidden = false
-            loginView.isHidden = true
-            print("sign up")
-            break;
-        default:
-            break;
-        }
-    }
-    
-    @IBAction func logIn(_ sender: Any) {
-        
-    }
+   
 }
 

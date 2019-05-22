@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9276766E2294E2AA00CFB2E1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9276766D2294E2AA00CFB2E1 /* LoginViewController.swift */; };
 		9283B9BC228F9BCF00E607A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283B9BB228F9BCF00E607A9 /* AppDelegate.swift */; };
 		9283B9BE228F9BCF00E607A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283B9BD228F9BCF00E607A9 /* ViewController.swift */; };
 		9283B9C1228F9BCF00E607A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9283B9BF228F9BCF00E607A9 /* Main.storyboard */; settings = {ASSET_TAGS = (Milk, ); }; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9276766D2294E2AA00CFB2E1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9283B9B8228F9BCF00E607A9 /* GroceryHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9283B9BB228F9BCF00E607A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9283B9BD228F9BCF00E607A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				9283B9C2228F9BD000E607A9 /* Assets.xcassets */,
 				9283B9C4228F9BD000E607A9 /* LaunchScreen.storyboard */,
 				9283B9C7228F9BD000E607A9 /* Info.plist */,
+				9276766D2294E2AA00CFB2E1 /* LoginViewController.swift */,
 			);
 			path = GroceryHelper;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9276766E2294E2AA00CFB2E1 /* LoginViewController.swift in Sources */,
 				9283B9BE228F9BCF00E607A9 /* ViewController.swift in Sources */,
 				9283B9BC228F9BCF00E607A9 /* AppDelegate.swift in Sources */,
 			);

@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="h0b-ll-6DF">
             <objects>
-                <viewController id="AnV-OH-qpl" customClass="ViewController" customModule="GroceryHelper" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AnV-OH-qpl" customClass="LoginViewController" customModule="GroceryHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CfB-bE-ou8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,6 +101,13 @@
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MyGroceryHelper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAE-na-GTz">
+                                <rect key="frame" x="115" y="149" width="184" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -119,7 +126,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sw1-Aj-DJm" userLabel="loginView" sceneMemberID="firstResponder"/>
                 <exit id="Muf-Wp-Vs2" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-365" y="70"/>
+            <point key="canvasLocation" x="-707" y="86"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iDB-xA-agm">
