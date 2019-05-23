@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="h0b-ll-6DF">
             <objects>
-                <viewController id="AnV-OH-qpl" customClass="LoginViewController" customModule="GroceryHelper" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" id="AnV-OH-qpl" customClass="LoginViewController" customModule="GroceryHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CfB-bE-ou8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -41,7 +41,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9vV-cV-ukS">
                                         <rect key="frame" x="0.0" y="41" width="320" height="30"/>
@@ -56,7 +56,6 @@
                                         <state key="normal" title="Login"/>
                                         <connections>
                                             <action selector="logIn:" destination="AnV-OH-qpl" eventType="touchUpInside" id="CgD-5E-7XB"/>
-                                            <segue destination="E8A-Ef-Tds" kind="show" id="3tI-Wo-cGD"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -87,13 +86,16 @@
                                         <rect key="frame" x="136" y="130" width="48" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" title="Signup"/>
+                                        <connections>
+                                            <action selector="createAccount:" destination="AnV-OH-qpl" eventType="touchUpInside" id="MaL-Zp-zR4"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sw5-3Y-z9t">
                                         <rect key="frame" x="0.0" y="84" width="320" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -118,7 +120,12 @@
                         <viewLayoutGuide key="safeArea" id="lBf-DN-zK6"/>
                     </view>
                     <connections>
+                        <outlet property="emailTextField" destination="T3K-zO-X8T" id="uKo-yj-nXk"/>
+                        <outlet property="loginEmailTextField" destination="9vV-cV-ukS" id="gqD-MA-7Sx"/>
+                        <outlet property="loginPasswordTextfield" destination="da2-8W-cXa" id="Xe1-nJ-eNY"/>
                         <outlet property="loginView" destination="ZVo-D5-bvd" id="Wum-Xu-xW8"/>
+                        <outlet property="nameTextField" destination="C8O-Ui-PQm" id="7Rl-fZ-E74"/>
+                        <outlet property="passwordTextField" destination="sw5-3Y-z9t" id="fOZ-P0-aso"/>
                         <outlet property="segmentedControl" destination="gJK-Yt-HpP" id="WlB-OH-GAb"/>
                         <outlet property="signupView" destination="1Ag-a0-AOK" id="d4e-cf-Qze"/>
                     </connections>
@@ -131,7 +138,7 @@
         <!--View Controller-->
         <scene sceneID="iDB-xA-agm">
             <objects>
-                <viewController id="E8A-Ef-Tds" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="profile" id="E8A-Ef-Tds" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O6V-mK-Ffn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -339,6 +346,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="3tI-Wo-cGD"/>
+        <segue reference="GNh-BK-5Sl"/>
+        <segue reference="xfm-pE-g2U"/>
     </inferredMetricsTieBreakers>
 </document>
