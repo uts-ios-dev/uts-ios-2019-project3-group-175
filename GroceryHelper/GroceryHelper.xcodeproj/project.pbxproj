@@ -17,6 +17,8 @@
 		9283B9C6228F9BD000E607A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9283B9C4228F9BD000E607A9 /* LaunchScreen.storyboard */; };
 		9283B9D1228F9BD000E607A9 /* GroceryHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283B9D0228F9BD000E607A9 /* GroceryHelperTests.swift */; };
 		9283B9DC228F9BD000E607A9 /* GroceryHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9283B9DB228F9BD000E607A9 /* GroceryHelperUITests.swift */; };
+		92BFCBB1229D22B400ECE6CE /* LaunchImage-568h@2x~iphone_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BFCBB0229D22B400ECE6CE /* LaunchImage-568h@2x~iphone_640x1136.png */; };
+		92BFCBB6229D28B300ECE6CE /* groceryhelper.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BFCBB5229D28B300ECE6CE /* groceryhelper.png */; };
 		92E489FA229629FC00E688C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92E489F9229629FC00E688C7 /* GoogleService-Info.plist */; };
 		D09C1A34015DC5C6E978ADA8 /* Pods_GroceryHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA546EEED6DD370F296D7ED0 /* Pods_GroceryHelper.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		9283B9D7228F9BD000E607A9 /* GroceryHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9283B9DB228F9BD000E607A9 /* GroceryHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryHelperUITests.swift; sourceTree = "<group>"; };
 		9283B9DD228F9BD000E607A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92BFCBB0229D22B400ECE6CE /* LaunchImage-568h@2x~iphone_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x~iphone_640x1136.png"; sourceTree = "<group>"; };
+		92BFCBB5229D28B300ECE6CE /* groceryhelper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groceryhelper.png; sourceTree = "<group>"; };
 		92E489F9229629FC00E688C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		97A3138E077C9C446D93ED45 /* Pods-GroceryHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryHelperTests.release.xcconfig"; path = "Target Support Files/Pods-GroceryHelperTests/Pods-GroceryHelperTests.release.xcconfig"; sourceTree = "<group>"; };
 		AA546EEED6DD370F296D7ED0 /* Pods_GroceryHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +129,7 @@
 				9283B9C4228F9BD000E607A9 /* LaunchScreen.storyboard */,
 				9283B9C7228F9BD000E607A9 /* Info.plist */,
 				9276766D2294E2AA00CFB2E1 /* LoginViewController.swift */,
+				92BFCBB2229D232300ECE6CE /* images */,
 				92E489F9229629FC00E688C7 /* GoogleService-Info.plist */,
 			);
 			path = GroceryHelper;
@@ -148,6 +153,15 @@
 			path = GroceryHelperUITests;
 			sourceTree = "<group>";
 		};
+		92BFCBB2229D232300ECE6CE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				92BFCBB5229D28B300ECE6CE /* groceryhelper.png */,
+				92BFCBB0229D22B400ECE6CE /* LaunchImage-568h@2x~iphone_640x1136.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		B6D46B101605A3F76FF94ED6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,7 +182,6 @@
 				B36358C5417BA1B9705E71BE /* Pods-GroceryHelperUITests.debug.xcconfig */,
 				0F762FE9A426012A46EE1ADD /* Pods-GroceryHelperUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -284,7 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9283B9C6228F9BD000E607A9 /* LaunchScreen.storyboard in Resources */,
+				92BFCBB1229D22B400ECE6CE /* LaunchImage-568h@2x~iphone_640x1136.png in Resources */,
 				92E489FA229629FC00E688C7 /* GoogleService-Info.plist in Resources */,
+				92BFCBB6229D28B300ECE6CE /* groceryhelper.png in Resources */,
 				9283B9C3228F9BD000E607A9 /* Assets.xcassets in Resources */,
 				9283B9C1228F9BCF00E607A9 /* Main.storyboard in Resources */,
 			);

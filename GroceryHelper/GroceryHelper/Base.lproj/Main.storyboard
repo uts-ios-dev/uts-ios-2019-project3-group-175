@@ -18,8 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gJK-Yt-HpP">
-                                <rect key="frame" x="47" y="238" width="320" height="28"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="groceryhelper.png" translatesAutoresizingMaskIntoConstraints="NO" id="XyD-Zk-gc8">
+                                <rect key="frame" x="37" y="87" width="340" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="gJK-Yt-HpP">
+                                <rect key="frame" x="47" y="321" width="320" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="Pi0-SB-Lql"/>
                                 </constraints>
@@ -33,7 +37,7 @@
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZVo-D5-bvd">
-                                <rect key="frame" x="40" y="273" width="320" height="262"/>
+                                <rect key="frame" x="40" y="356" width="320" height="262"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="da2-8W-cXa">
@@ -65,7 +69,7 @@
                                 </accessibility>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Ag-a0-AOK">
-                                <rect key="frame" x="37" y="296" width="340" height="236"/>
+                                <rect key="frame" x="37" y="379" width="340" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T3K-zO-X8T">
@@ -103,19 +107,12 @@
                                     <bool key="isElement" value="YES"/>
                                 </accessibility>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MyGroceryHelper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAE-na-GTz">
-                                <rect key="frame" x="115" y="149" width="184" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="gJK-Yt-HpP" firstAttribute="leading" secondItem="lBf-DN-zK6" secondAttribute="leading" constant="47" id="Rao-Ja-UL4"/>
                             <constraint firstItem="gJK-Yt-HpP" firstAttribute="centerX" secondItem="CfB-bE-ou8" secondAttribute="centerX" id="Udc-mV-D03"/>
-                            <constraint firstItem="gJK-Yt-HpP" firstAttribute="top" secondItem="lBf-DN-zK6" secondAttribute="top" constant="194" id="hxO-ab-xgl"/>
+                            <constraint firstItem="gJK-Yt-HpP" firstAttribute="top" secondItem="lBf-DN-zK6" secondAttribute="top" constant="270" id="hxO-ab-xgl"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lBf-DN-zK6"/>
                     </view>
@@ -133,7 +130,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sw1-Aj-DJm" userLabel="loginView" sceneMemberID="firstResponder"/>
                 <exit id="Muf-Wp-Vs2" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-707" y="86"/>
+            <point key="canvasLocation" x="-707.24637681159425" y="85.714285714285708"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iDB-xA-agm">
@@ -345,8 +342,10 @@
             <point key="canvasLocation" x="201" y="1592"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="groceryhelper.png" width="298.20001220703125" height="289.20001220703125"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GNh-BK-5Sl"/>
         <segue reference="xfm-pE-g2U"/>
     </inferredMetricsTieBreakers>
 </document>
