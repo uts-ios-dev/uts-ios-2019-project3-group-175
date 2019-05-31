@@ -20,6 +20,8 @@
 		92BFCBB6229D28B300ECE6CE /* groceryhelper.png in Resources */ = {isa = PBXBuildFile; fileRef = 92BFCBB5229D28B300ECE6CE /* groceryhelper.png */; };
 		92E489FA229629FC00E688C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92E489F9229629FC00E688C7 /* GoogleService-Info.plist */; };
 		D09C1A34015DC5C6E978ADA8 /* Pods_GroceryHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA546EEED6DD370F296D7ED0 /* Pods_GroceryHelper.framework */; };
+		DED3010522A0D9DC001C59D3 /* GroItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3010422A0D9DC001C59D3 /* GroItems.swift */; };
+		DED3010822A0DBE1001C59D3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED3010722A0DBE1001C59D3 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		97A3138E077C9C446D93ED45 /* Pods-GroceryHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryHelperTests.release.xcconfig"; path = "Target Support Files/Pods-GroceryHelperTests/Pods-GroceryHelperTests.release.xcconfig"; sourceTree = "<group>"; };
 		AA546EEED6DD370F296D7ED0 /* Pods_GroceryHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36358C5417BA1B9705E71BE /* Pods-GroceryHelperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryHelperUITests.debug.xcconfig"; path = "Target Support Files/Pods-GroceryHelperUITests/Pods-GroceryHelperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DED3010422A0D9DC001C59D3 /* GroItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroItems.swift; sourceTree = "<group>"; };
+		DED3010722A0DBE1001C59D3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		F1369F23B67805E201289FD1 /* Pods-GroceryHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryHelper.debug.xcconfig"; path = "Target Support Files/Pods-GroceryHelper/Pods-GroceryHelper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,14 +125,15 @@
 			isa = PBXGroup;
 			children = (
 				9283B9BB228F9BCF00E607A9 /* AppDelegate.swift */,
-				9283B9BD228F9BCF00E607A9 /* ViewController.swift */,
 				9283B9BF228F9BCF00E607A9 /* Main.storyboard */,
 				9283B9C2228F9BD000E607A9 /* Assets.xcassets */,
+				DED3010622A0DBC6001C59D3 /* Controller */,
 				9283B9C4228F9BD000E607A9 /* LaunchScreen.storyboard */,
 				9283B9C7228F9BD000E607A9 /* Info.plist */,
 				9276766D2294E2AA00CFB2E1 /* LoginViewController.swift */,
 				92BFCBB2229D232300ECE6CE /* images */,
 				92E489F9229629FC00E688C7 /* GoogleService-Info.plist */,
+				DED3010422A0D9DC001C59D3 /* GroItems.swift */,
 			);
 			path = GroceryHelper;
 			sourceTree = "<group>";
@@ -167,6 +172,15 @@
 				6B4A2F4354B1F49001373AB9 /* Pods_GroceryHelperUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED3010622A0DBC6001C59D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9283B9BD228F9BCF00E607A9 /* ViewController.swift */,
+				DED3010722A0DBE1001C59D3 /* TableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		E062B6135B81B42D1EC9A92D /* Pods */ = {
@@ -420,6 +434,8 @@
 				9276766E2294E2AA00CFB2E1 /* LoginViewController.swift in Sources */,
 				9283B9BE228F9BCF00E607A9 /* ViewController.swift in Sources */,
 				9283B9BC228F9BCF00E607A9 /* AppDelegate.swift in Sources */,
+				DED3010822A0DBE1001C59D3 /* TableViewController.swift in Sources */,
+				DED3010522A0D9DC001C59D3 /* GroItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
