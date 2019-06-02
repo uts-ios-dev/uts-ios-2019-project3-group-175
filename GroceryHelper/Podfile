@@ -8,6 +8,7 @@ target 'GroceryHelper' do
   # Pods for GroceryHelper
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database',inhibit_warnings => true
   target 'GroceryHelperTests' do
     inherit! :search_paths
     # Pods for testing
