@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.m \
+  /Users/user150278/Documents/GroceryHelper2/build/Pods.build/Debug-iphonesimulator/FirebaseInstanceID.build/module.modulemap \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenManager.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/Public/FIRInstanceID.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthKeyChain.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAuthService.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinService.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDUtilities.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDCheckinPreferences.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDConstants.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDDefines.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDLogger.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRIMessageCode.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDStore.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenDeleteOperation.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenOperation.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenFetchOperation.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDTokenInfo.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/FIRInstanceIDAPNSInfo.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseInstanceID/Firebase/InstanceID/NSError+FIRInstanceID.h

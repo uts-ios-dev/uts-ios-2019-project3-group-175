@@ -1,0 +1,40 @@
+dependencies: \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.m \
+  /Users/user150278/Documents/GroceryHelper2/build/Pods.build/Debug-iphonesimulator/FirebaseDatabase.build/module.modulemap \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Login/FAuthTokenProvider.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Utilities/FTypedefs.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FTypedefs_Private.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/Headers/Public/FirebaseAuthInterop/FIRAuthInterop.h \
+  /Users/user150278/Documents/GroceryHelper2/build/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Private/FIRAppInternal.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Public/FIROptions.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Public/FIRLoggerLevel.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Public/FIRConfiguration.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Public/FIRApp.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Private/FIRErrors.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Private/FIRErrorCode.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentContainer.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Private/FIRComponentType.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Private/FIRLibrary.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Private/FIRComponent.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseCore/Firebase/Core/Private/FIRLogger.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Utilities/FUtilities.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Utilities/FParsedUrl.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoInfo.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Core/Utilities/FPath.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Api/Private/FIRDatabaseQuery_Private.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Core/FRepo.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Core/FPersistentConnection.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Realtime/FConnection.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Realtime/FWebSocketConnection.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/third_party/SocketRocket/FSRWebSocket.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataEventType.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Utilities/Tuples/FTupleUserCallback.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Core/FQueryParams.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Core/FRepoManager.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Api/FIRDatabaseConfig.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDatabaseQuery.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Public/FIRDataSnapshot.h \
+  /Users/user150278/Documents/GroceryHelper2/Pods/FirebaseDatabase/Firebase/Database/Login/FIRNoopAuthTokenProvider.h

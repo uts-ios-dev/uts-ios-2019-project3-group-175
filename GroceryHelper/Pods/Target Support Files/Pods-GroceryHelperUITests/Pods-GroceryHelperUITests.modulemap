@@ -1,6 +1,0 @@
-framework module Pods_GroceryHelperUITests {
-  umbrella header "Pods-GroceryHelperUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
