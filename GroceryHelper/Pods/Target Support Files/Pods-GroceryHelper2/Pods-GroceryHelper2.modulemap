@@ -1,0 +1,6 @@
+framework module Pods_GroceryHelper2 {
+  umbrella header "Pods-GroceryHelper2-umbrella.h"
+
+  export *
+  module * { export * }
+}
