@@ -24,12 +24,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="groceryhelper.png" translatesAutoresizingMaskIntoConstraints="NO" id="XTK-qS-nfg">
-                                <rect key="frame" x="19" y="172" width="336" height="104"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="groceryhelper.png" translatesAutoresizingMaskIntoConstraints="NO" id="XTK-qS-nfg">
+                                <rect key="frame" x="30" y="148" width="315" height="331"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="I8w-LD-kE6"/>
+                                    <constraint firstAttribute="height" constant="331" id="rYW-GN-Lad"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="XTK-qS-nfg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="128" id="4kZ-eV-WIg"/>
                             <constraint firstItem="XTK-qS-nfg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Akx-Hi-n1c"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0X1-4r-qWU" secondAttribute="bottom" constant="67" id="ENX-Sh-3bt"/>
                             <constraint firstItem="0X1-4r-qWU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="bai-6l-Ntq"/>

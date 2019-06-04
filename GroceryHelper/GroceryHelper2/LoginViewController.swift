@@ -11,7 +11,7 @@ import UIKit
 import Firebase
 import FirebaseAuth
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var signupView: UIView!
     @IBOutlet weak var loginView: UIView!
@@ -26,6 +26,12 @@ class LoginViewController: UIViewController {
     
     
     
+    override func viewDidLoad() {
+        self.emailTextField.delegate = self
+        self.passwordTextField.delegate = self
+        self.loginEmailTextField.delegate = self
+        self.loginPasswordTextfield.delegate = self
+    }
     /// Navigate between views in segmentedcontrol
     ///
     /// - Parameter sender: UISegmentedcontrol
@@ -42,6 +48,14 @@ class LoginViewController: UIViewController {
         default:
             break;
         }
+    }
+    /// Removes keyboard when return is clicked
+    ///
+    /// - Parameter textField: Textfield being typed
+    /// - Returns: false
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
     
     

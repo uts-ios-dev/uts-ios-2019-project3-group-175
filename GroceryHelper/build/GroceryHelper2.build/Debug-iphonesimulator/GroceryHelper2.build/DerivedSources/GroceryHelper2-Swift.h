@@ -260,7 +260,7 @@ SWIFT_CLASS("_TtC14GroceryHelper222HaveListViewController")
 @class UISegmentedControl;
 
 SWIFT_CLASS("_TtC14GroceryHelper219LoginViewController")
-@interface LoginViewController : UIViewController
+@interface LoginViewController : UIViewController <UITextFieldDelegate>
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified signupView;
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified loginView;
 @property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified segmentedControl;
@@ -268,10 +268,18 @@ SWIFT_CLASS("_TtC14GroceryHelper219LoginViewController")
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordTextField;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified loginPasswordTextfield;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified loginEmailTextField;
+- (void)viewDidLoad;
 /// Navigate between views in segmentedcontrol
 /// \param sender UISegmentedcontrol
 ///
 - (IBAction)segmentedControlClicked:(UISegmentedControl * _Nonnull)sender;
+/// Removes keyboard when return is clicked
+/// \param textField Textfield being typed
+///
+///
+/// returns:
+/// false
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
 /// Logs in a user if details are valid
 /// \param sender <#sender description#>
 ///

@@ -13,7 +13,9 @@ provides-dynamic-lookup:
 - "pwdTextFieldOne"
 - "pwdTextFieldTwo"
 depends-top-level:
+- !private "!"
 - !private "!="
+- !private "&&"
 - !private "=="
 - "AnyObject"
 - !private "Auth"
@@ -35,6 +37,7 @@ depends-member:
 - !private ["So7FIRAuthC", "signOut"]
 - !private ["SK", "init"]
 - !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["s7CVarArgP", "Auth"]
@@ -53,6 +56,7 @@ depends-member:
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "isEmpty"]
 - !private ["s7CVarArgP", "localizedDescription"]
 - !private ["s7CVarArgP", "present"]
 - !private ["s7CVarArgP", "print"]
@@ -66,8 +70,10 @@ depends-member:
 - !private ["s7CVarArgP", "updatePassword"]
 - !private ["Sl", "init"]
 - !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
 - !private ["SL", "init"]
 - !private ["SL", "init"]
+- !private ["SL", "isEmpty"]
 - !private ["s28CustomDebugStringConvertibleP", "Auth"]
 - !private ["s28CustomDebugStringConvertibleP", "EmailAuthProvider"]
 - !private ["s28CustomDebugStringConvertibleP", "UIAlertAction"]
@@ -83,6 +89,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
 - !private ["s28CustomDebugStringConvertibleP", "localizedDescription"]
 - !private ["s28CustomDebugStringConvertibleP", "present"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
@@ -97,9 +104,11 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
 - !private ["s17CustomReflectableP", "text"]
 - !private ["s23CustomStringConvertibleP", "Auth"]
 - !private ["s23CustomStringConvertibleP", "EmailAuthProvider"]
@@ -117,6 +126,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
 - !private ["s23CustomStringConvertibleP", "localizedDescription"]
 - !private ["s23CustomStringConvertibleP", "present"]
 - !private ["s23CustomStringConvertibleP", "print"]
@@ -131,11 +141,13 @@ depends-member:
 - !private ["Se", "_getBuiltinLogicValue"]
 - !private ["Se", "init"]
 - !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
 - !private ["Se", "text"]
 - !private ["So20FIREmailAuthProviderC", "credential"]
 - !private ["SE", "_getBuiltinLogicValue"]
 - !private ["SE", "init"]
 - !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
 - !private ["SE", "text"]
 - !private ["SQ", "Auth"]
 - !private ["SQ", "EmailAuthProvider"]
@@ -156,6 +168,7 @@ depends-member:
 - !private ["SQ", "init"]
 - !private ["SQ", "init"]
 - !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "isEmpty"]
 - !private ["SQ", "localizedDescription"]
 - !private ["SQ", "present"]
 - !private ["SQ", "print"]
@@ -171,11 +184,14 @@ depends-member:
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
 - !private ["SH", "Auth"]
 - !private ["SH", "EmailAuthProvider"]
 - !private ["SH", "UIAlertAction"]
@@ -195,6 +211,7 @@ depends-member:
 - !private ["SH", "init"]
 - !private ["SH", "init"]
 - !private ["SH", "instantiateViewController"]
+- !private ["SH", "isEmpty"]
 - !private ["SH", "localizedDescription"]
 - !private ["SH", "present"]
 - !private ["SH", "print"]
@@ -209,8 +226,10 @@ depends-member:
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
 - !private ["So8NSCodingP", "Auth"]
 - !private ["So8NSCodingP", "EmailAuthProvider"]
 - !private ["So8NSCodingP", "UIAlertAction"]
@@ -220,6 +239,7 @@ depends-member:
 - !private ["So8NSCodingP", "currentPwd"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
 - !private ["So8NSCodingP", "localizedDescription"]
 - !private ["So8NSCodingP", "present"]
 - !private ["So8NSCodingP", "print"]
@@ -229,6 +249,7 @@ depends-member:
 - !private ["So8NSCodingP", "storyboard"]
 - !private ["So8NSCodingP", "text"]
 - !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isEmpty"]
 - !private ["So9NSCopyingP", "localizedDescription"]
 - !private ["So7NSErrorC", "localizedDescription"]
 - !private ["So26NSExtensionRequestHandlingP", "Auth"]
@@ -246,6 +267,9 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "pwdTextFieldTwo"]
 - !private ["So26NSExtensionRequestHandlingP", "removeAccount"]
 - !private ["So26NSExtensionRequestHandlingP", "storyboard"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
 - ["So8NSObjectC", "AnyObject"]
 - !private ["So8NSObjectC", "Auth"]
 - !private ["So8NSObjectC", "AuthCredential"]
@@ -267,6 +291,7 @@ depends-member:
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "isEmpty"]
 - !private ["So8NSObjectC", "localizedDescription"]
 - ["So8NSObjectC", "logOut"]
 - !private ["So8NSObjectC", "present"]
@@ -294,6 +319,7 @@ depends-member:
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "isEmpty"]
 - !private ["So8NSObjectP", "localizedDescription"]
 - !private ["So8NSObjectP", "present"]
 - !private ["So8NSObjectP", "print"]
@@ -305,15 +331,19 @@ depends-member:
 - !private ["So8NSObjectP", "storyboard"]
 - !private ["So8NSObjectP", "text"]
 - !private ["So8NSObjectP", "updatePassword"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
 - !private ["So14NSSecureCodingP", "localizedDescription"]
+- !private ["So8NSStringC", "isEmpty"]
 - !private ["Sq", "text"]
 - !private ["Sm", "init"]
 - !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
 - !private ["SY", "alert"]
 - !private ["SY", "cancel"]
 - !private ["SY", "default"]
 - !private ["ST", "init"]
 - !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
 - ["14GroceryHelper222SettingsViewControllerC", "AnyObject"]
 - !private ["14GroceryHelper222SettingsViewControllerC", "Auth"]
 - !private ["14GroceryHelper222SettingsViewControllerC", "AuthCredential"]
@@ -336,15 +366,19 @@ depends-member:
 - !private ["14GroceryHelper222SettingsViewControllerC", "storyboard"]
 - !private ["SS", "init"]
 - !private ["SS", "init"]
+- !private ["SS", "isEmpty"]
 - !private ["Sy", "init"]
 - !private ["Sy", "init"]
+- !private ["Sy", "isEmpty"]
 - !private ["So22UIAlertControllerStyleV", "alert"]
 - !private ["So18UIAlertActionStyleV", "cancel"]
 - !private ["So18UIAlertActionStyleV", "default"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
 - !private ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So13UIAlertActionC", "init"]
 - !private ["So17UIAlertControllerC", "addAction"]
@@ -551,14 +585,20 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "EmailAuthProvider"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIAlertAction"]
@@ -574,6 +614,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedDescription"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
@@ -588,9 +629,11 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
 - !private ["s21_ObjectiveCBridgeableP", "text"]
 - !private ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
 depends-nominal:
 - !private "So7FIRAuthC"
 - !private "SK"
@@ -620,9 +663,13 @@ depends-nominal:
 - !private "So9NSCopyingP"
 - !private "So7NSErrorC"
 - "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
 - !private "Sq"
 - !private "Sm"
 - !private "SY"
@@ -673,6 +720,7 @@ depends-nominal:
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s16_SwiftStringViewP"
@@ -691,65 +739,66 @@ depends-external:
 - "/Applications/Xcode10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode10.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/Firebase/CoreOnly/Sources/Firebase.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Headers/FirebaseInstanceID-umbrella.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore-umbrella.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase-umbrella.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth-umbrella.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserMetadata.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthUIDelegate.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthCredential.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFederatedAuthProvider.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRGameCenterAuthProvider.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthSettings.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Headers/FIRAuthTokenResult.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
 - "/Users/user150278/Documents/GroceryHelper2/Pods/Firebase/CoreOnly/Sources/module.modulemap"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
-- "/Users/user150278/Documents/GroceryHelper2/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
-- "/Users/user150278/Documents/GroceryHelper2/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/Pods/Firebase/CoreOnly/Sources/module.modulemap"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseInstanceID/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseCore/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseDatabase/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/build/Debug-iphonesimulator/FirebaseAuth/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/user150278/Documents/neww/uts-ios-2019-project3-group-175/GroceryHelper/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Applications/Xcode10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode10.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"

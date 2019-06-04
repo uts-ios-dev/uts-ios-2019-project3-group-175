@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		bnpVvPjLIddEQRsFX5KAcw4t5Ok=
+		JfuEReCqN37eXKB7lJS9r+281qk=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		+q1wFg9Xh1A+bfeG9QkBXxFUSiw=
+		wtLL+zfzDnb3eeYbApsaNUSaHEY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		Jz1pTJ1D9p84B+ZwSjjmBmCZjdE=
+		GLWtHBCJEzPIAPH0qZvvTuzy388=
 		</data>
 		<key>Base.lproj/Main.storyboardc/CbL-JH-yfz-view-n5g-L1-w9M.nib</key>
 		<data>
-		VYr0QN5d3SYsYQPceDjei5iTQb8=
+		/Y4qQLj3o2CS2KbFLUdYumAzcaY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,39 +30,39 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Q3e-OA-ceV-view-Zzk-vq-gk1.nib</key>
 		<data>
-		aGJqtgUBL+bMzM//rCCs2iUuGxs=
+		IzRe2nliB6SfjD47rxpAtars+L8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-CbL-JH-yfz.nib</key>
 		<data>
-		vVVFmNsAREOUYaOkxG0dHsgSN1I=
+		CpDJH9yPJnIDkHGOV4thzL1Gy7A=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-Q3e-OA-ceV.nib</key>
 		<data>
-		B8DiuxgahfuSJP64wua8+eGVIo8=
+		PhJIh4KcztZgJfsvt3CmmZpCeVI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-psA-nI-V25.nib</key>
 		<data>
-		nUHFN4j6O83JQGNJaNZ55IqX4IE=
+		/+MzO4JZgbVSpEihhht0zKpeemU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/login.nib</key>
 		<data>
-		wR4gcUCOrpcEl0acUPbXATuZ0NI=
+		iw5mg+6rquuzLFd77s7SaXCXEHQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/m01-Ca-HaS-view-FqN-kh-RpQ.nib</key>
 		<data>
-		xBa6qxqiyHy3ciV7WXRKTKHqRs8=
+		bQqxL3qiDmm9d093tqocrgbRX6w=
 		</data>
 		<key>Base.lproj/Main.storyboardc/profile.nib</key>
 		<data>
-		+yD8w+fd9QNlLDZwTLWiuD3hN50=
+		y58bQry9DdLvJStyHUrN+hszC3o=
 		</data>
 		<key>Base.lproj/Main.storyboardc/psA-nI-V25-view-4YP-Gu-4Np.nib</key>
 		<data>
-		3a0fqp26mHe2aE/N3d4S8T5+XBI=
+		IavLaH4eJxg8yVj0h2hOnj6ZyE4=
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<data>
-		lAUCM4h0/2e+SmZxFEgyivBsckI=
+		0z8q1emO4m/s85VBIFmd8+D9MQw=
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Frameworks/GoogleUtilities.framework/GoogleUtilities</key>
 		<data>
-		mB4krCZkiHm8L2+lTFUpWCaXh4A=
+		6BOmvqZGFENf58W2csXd6HySDAE=
 		</data>
 		<key>Frameworks/GoogleUtilities.framework/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Frameworks/leveldb.framework/leveldb</key>
 		<data>
-		yviPj4tcZHACg67n+oyZ1q9fyr4=
+		pPWrtmJETRZECyJfROfvzlFSCPU=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>Frameworks/nanopb.framework/nanopb</key>
 		<data>
-		D3RpJ8CpxMTczVTdVz9d9jzMgYA=
+		XW4n0EIMfmmbQllZORbdNwmGEm0=
 		</data>
 		<key>GoogleService-Info.plist</key>
 		<data>
@@ -167,6 +167,10 @@
 		<key>Info.plist</key>
 		<data>
 		PnR3dDaO6POwT9CPyQEerfxS+nk=
+		</data>
+		<key>Online-Grocery-Shopping-grocery-bag.jpg</key>
+		<data>
+		DSaecRrSPc9YvW4PoZOMj0WEcTw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -187,7 +191,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eJSicV9r38ImhntCI7T+sDzGShN7+AekFORECqMMpf0=
+			BthyD+67JEjWb8MDX+ZnEOquhkrqD41P75fdMpERmNk=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -201,21 +205,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dUz2dJDenkHvHi4QPwB5P/61EXVoDDC+HDT1x52brK4=
+			AucTErT+DHSfRRWPKFeNYJDpjglU45CVCGBThBbBJ58=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NnDGrTnFQru1u5HReORTQDupGTbCpTwm/e8dXp8JqBg=
+			WO9bTeGYwvJKdvG0pvyCS1iLevFZeW66F572wvlhzs0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/CbL-JH-yfz-view-n5g-L1-w9M.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gor6N2apwYTJ/xdstQ4g5s2/uAJWlEWfG5laaXTJKEE=
+			FJgmPsZawK9L3XkvO4gWXEp1e7cxsL7r0lQEpiBk6pI=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -229,63 +233,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qy4DsQ5Uuy1NktnLpjVGW3ZKIdjdCJCJQ53jhzSeIMw=
+			JuvlXMtQDaMPeqrMyrK/QYeZBt1Vn90Hnb5ZA9W/kbs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-CbL-JH-yfz.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8qdVw4CKubMghyThPArH1Qld5MEmeyon3vKMrkiDMc4=
+			Tnni6gD2cXXMJfe0JbAspXzeyTCFDYTRLmah7A+GZUk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-Q3e-OA-ceV.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M/T5cWNWqGa1IblEBwkJItoAtSSGNpvSFfmx657qXeg=
+			l52GOTb5sv7hrV1lAKq6wzQ++Ikr6JC/hy7QIfsFKS0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-psA-nI-V25.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LtnZq8hOmeyKcvChi/LCRj+HleoxJR5xsVouxbV+u7I=
+			hKmOpxyOA+S0UYQ+PhXFYhSLrhPM5aEftei+bIVCU5k=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/login.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZIoC5HSY18B+znJ8UrcbvbINoVn93RsJbXWrrK7YoWQ=
+			Axx5gAWEFpUp4gJIDzeDdop15tYGr3oFLkOkrortLA4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/m01-Ca-HaS-view-FqN-kh-RpQ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DiHGURegWdFzU+h3uJNTlXS4NHRjlipbvYlttLvjG2c=
+			LtyPeEaZXih4OTef59cGjhHeTlVoYSIr8oCEffGZdtc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/profile.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o343YELRZ2bIrOGXEeGag06RdVC+fYAyHtxNQbN9LhQ=
+			oPo7LAJZX5Z60uFkPuy+T1JM6HkWR9kTDM9uElfXZ/4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/psA-nI-V25-view-4YP-Gu-4Np.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l7yONGeq7y/40G00PqLL4U4HgMEdfJDfs9VueSJzxa0=
+			S2y5EoNoeYkCnML0SsHSE3oYicmGEVxCtJbo6j6QVrE=
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			emV7vH00GvaAGIe7ygIYO6qDod4glA6p/vXuWhsKwE8=
+			QKjvqa58f+ycov5hgGMpcx3uGWJukSPiTpizIYhrv5c=
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
@@ -306,7 +310,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ziGYuyQiKwiXqSt1QdMAFhw0Rphv21lJoX9XYc7ZRE0=
+			mT3v9cVWjOSh4vZZiHyDcwXI3FE4evVoBgugiAZaY3U=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleUtilities.framework/Info.plist</key>
@@ -341,7 +345,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yAi4A2o8T3cOsUxLCSBC7qsrgysg553xuKr3LPeXCyQ=
+			9SGLTAeC1sCeX8jgyly8ihLcWx6uAZR8X+nlkzp83Is=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -453,7 +457,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u44NiY64MCB+aVzC8OUZozzxHI256t2s5lW8QkOdxvY=
+			kyYMRYM5Iqdd0fM2YI5B6KFS8H6ulYjyMCmxvtwz3a8=
 			</data>
 		</dict>
 		<key>GoogleService-Info.plist</key>
@@ -461,6 +465,13 @@
 			<key>hash2</key>
 			<data>
 			/lw6Wb6edcQor7iqaEbRP+dm7p2wQjNRrphRMiRSK4s=
+			</data>
+		</dict>
+		<key>Online-Grocery-Shopping-grocery-bag.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bI92uwu65+fRjQSJzRk7pQtUe2EJcU8ZBacWJ4onPx8=
 			</data>
 		</dict>
 		<key>groceryhelper.png</key>

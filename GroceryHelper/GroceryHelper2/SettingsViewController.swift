@@ -26,7 +26,7 @@ class SettingsViewController: UIViewController {
         let user = Auth.auth().currentUser
         let credential: AuthCredential = EmailAuthProvider.credential(withEmail: (user?.email)!, password: currentPwd.text!)
         
-        if pwdTextFieldOne.text == pwdTextFieldTwo.text {
+        if pwdTextFieldOne.text == pwdTextFieldTwo.text && !(pwdTextFieldOne.text!.isEmpty) {
             // Reauthenticate with credentials and update to new password
             user?.reauthenticate(with: credential, completion: nil)
             user?.updatePassword(to: pwdTextFieldOne.text!, completion: nil)
